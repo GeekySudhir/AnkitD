@@ -1,0 +1,241 @@
+
+/* Smartphones */
+  @media(max-width: 500px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #navbar .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  
+    #navbar ul {
+      padding: 0.5rem;
+    }
+
+    #who {
+      display: block;
+      text-align: left;
+    }
+  
+    #who .who-img {
+      display: none;
+    }
+  
+  }
+  
+  @media(max-height: 568px) {
+    #showcase .showcase-content {
+      margin-top: -2rem;
+      top: 140px;
+    }
+  
+    .l-heading {
+      font-size: 3rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  }
+
+
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height:1.4;
+    background-color: #202641;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+/*utility*/
+.primary{
+    color: #FF3C00;
+}
+
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.btn{
+    display: inline-block;
+    background:#202641;
+    border:none;
+    padding: 0.5rem 2rem;
+    color:white;
+    border-radius:3px;
+}
+
+/*navbar*/
+
+#navbar{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    background:#202641; 
+    color:white;
+    position:sticky;
+    top:0;
+    z-index:1;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul a{
+    color:white;
+    align-content: flex-start;
+    padding:0.75rem;
+    margin:0 0.25rem;
+}
+
+#navbar ul a:hover{
+    background:#4559b0;
+    border-radius: 0.25rem;
+}
+
+
+/*Section*/
+
+#what h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Who Section*/
+
+#who{
+    display: flex;
+    align-items:center;
+}
+
+#who div{
+    flex:0.5;
+}
+#who .who-img{
+    padding: 20%;
+    background: url('./image/people.jpg') no-repeat center center/cover;
+}
+
+#who li{
+    text-decoration: none;
+    list-style:none;
+    margin:0.5rem;
+    border-bottom: #444 dotted 1px;
+}
+
+#who .videop .videoa{
+    padding-top: 10px;  
+}
+
+#who .who-text{
+    font-size: 30px;
+    padding:40px;
+    color: white;
+}
+
+#who h3{
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#who p{
+    padding: 15px;
+    text-align: left;
+}
+
+#who button {
+    background-color: #202641;
+    border: 1px solid #C3F0F7;
+    border-radius: 4px;
+    color: #C3F0F7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 40px;
+  }
+    #who #googleButton {
+    background-color: #6c97e8;
+    border: 1px solid #C3F0F7;
+    border-radius: 4px;
+    color: #C3F0F7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 9px;
+    cursor: pointer;
+    min-height: 40px;
+    }
+
+/*Clients*/
+#clients h1{
+    background-color: #202641;
+    color: white;
+    text-align:center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size:1.7rem;
+}
+#clients .items{
+display: flex;
+
+}
+#clients .items img{
+    display: block;
+    margin:1.5rem;
+    width:30%;
+    padding-bottom: 15%;
+}
+
+/*section:contacts*/
+
+
+#contact h3,p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#main-footer{
+    border-top: 1px solid ;
+    margin-top:none;
+    color: #565A6F;
+    margin: 5%;
+    height: 150px;
+}
+
+#main-footer span{
+    display: flex;
+    justify-content: center;
+    padding: 3%;  
+}
