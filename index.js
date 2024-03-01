@@ -212,7 +212,7 @@ try {
     Disconnect-VIServer -Server $global:DefaultVIServers -Confirm:$false -ErrorAction SilentlyContinue
 }
 ```
-
+# Hello world
 This script includes advanced exception handling using `try`, `catch`, and `finally` blocks. It will catch and display errors during connection, gathering network configurations, and other operations. Adjust the script based on your specific environment and error-handling requirements.
 
 
